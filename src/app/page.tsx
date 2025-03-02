@@ -48,7 +48,7 @@ export default function Home() {
     { stiffness: 8, damping: 18 },
   )
   
-  
+
   const y5 = useSpring(
     useTransform(scrollYProgress, [0, 1], [100, 550], {
       ease: cubicBezier(0.42, 0, 0.58, 1),
@@ -56,6 +56,7 @@ export default function Home() {
     { stiffness: 14, damping: 24 },
   )
   const opacity = useTransform(scrollYProgress, [0, 0.9, 1], [1, 1, 0]);
+
 
   return (
     <main className="min-h-screen flex flex-col relative bg-transparent">
