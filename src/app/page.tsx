@@ -47,7 +47,8 @@ export default function Home() {
     }),
     { stiffness: 8, damping: 18 },
   )
-
+  
+  
   const y5 = useSpring(
     useTransform(scrollYProgress, [0, 1], [100, 550], {
       ease: cubicBezier(0.42, 0, 0.58, 1),
