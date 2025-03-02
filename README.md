@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Prueba Técnica Final - Aplicación Next.js con Tailwind CSS y Framer Motion
 
-## Getting Started
+Este proyecto es una prueba técnica desarrollada con **Next.js**, **Tailwind CSS** y **Framer Motion**. El objetivo principal es demostrar habilidades en la creación de aplicaciones web modernas y dinámicas utilizando estas tecnologías.
 
-First, run the development server:
+## Tecnologías Utilizadas
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+* **Next.js**: Framework de React para la creación de aplicaciones web con renderizado del lado del servidor (SSR) y generación de sitios estáticos (SSG).
+* **Tailwind CSS**: Framework de CSS basado en utilidades para la construcción rápida de interfaces de usuario personalizadas.
+* **Framer Motion**: Librería de animación para React que facilita la creación de animaciones fluidas y transiciones interactivas.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Características Principales
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+* **Diseño Responsivo**: La aplicación está diseñada para adaptarse a diferentes tamaños de pantalla gracias a Tailwind CSS.
+* **Animaciones Fluidas**: Se utilizan animaciones de Framer Motion para mejorar la experiencia del usuario y proporcionar interacciones atractivas.
+* **Rendimiento Óptimo**: Next.js garantiza un rendimiento excelente mediante SSR y SSG, mejorando la velocidad de carga y el SEO.
+* **Estructura de Proyecto Clara**: El proyecto sigue una estructura organizada y modular para facilitar el mantenimiento y la escalabilidad.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Instalación
 
-## Learn More
+1.  Clona el repositorio:
 
-To learn more about Next.js, take a look at the following resources:
+    ```bash
+    git clone [https://github.com/theodelrieu?tab=repositories](https://github.com/theodelrieu?tab=repositories)
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2.  Navega al directorio del proyecto:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+    ```bash
+    cd [nombre del proyecto]
+    ```
 
-## Deploy on Vercel
+3.  Instala las dependencias:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    ```bash
+    npm install
+    # o
+    yarn install
+    # o
+    pnpm install
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Ejecución
+
+1.  Inicia el servidor de desarrollo:
+
+    ```bash
+    npm run dev
+    # o
+    yarn dev
+    # o
+    pnpm dev
+    ```
+
+2.  Abre tu navegador y visita `http://localhost:3000`.
+
+## Scripts
+
+* `dev`: Inicia el servidor de desarrollo.
+* `build`: Construye la aplicación para producción.
+* `start`: Inicia el servidor de producción.
+* `lint`: Ejecuta ESLint para verificar el código.
+
