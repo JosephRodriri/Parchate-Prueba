@@ -54,6 +54,7 @@ export default function Home() {
     }),
     { stiffness: 14, damping: 24 },
   )
+  const opacity = useTransform(scrollYProgress, [0, 0.9, 1], [1, 1, 0]);
 
   return (
     <main className="min-h-screen flex flex-col relative bg-transparent">
@@ -68,7 +69,7 @@ export default function Home() {
           <motion.div
             className="absolute"
             style={{
-              y: y1,
+              y: y1, opacity: opacity,
               x: "-40%",
               top: "9%",
             }}
@@ -86,7 +87,7 @@ export default function Home() {
           <motion.div
             className="absolute"
             style={{
-              y: y2,
+              y: y2,opacity: opacity,
               x: "90%",
               top: "20%",
             }}
@@ -104,7 +105,7 @@ export default function Home() {
           <motion.div
             className="absolute"
             style={{
-              y: y3,
+              y: y3,opacity: opacity,
               x: "80%",
               top: "20%",
             }}
@@ -122,7 +123,7 @@ export default function Home() {
           <motion.div
             className="absolute"
             style={{
-              y: y4,
+              y: y4,opacity: opacity,
               x: "-20%",
               top: "60%",
             }}
@@ -140,7 +141,7 @@ export default function Home() {
           <motion.div
             className="absolute"
             style={{
-              y: y5,
+              y: y5,opacity: opacity,
               x: "40%",
               top: "50%",
             }}
